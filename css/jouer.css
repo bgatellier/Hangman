@@ -1,0 +1,68 @@
+#jeu{
+	display: table;
+	margin-bottom: 1em;
+}
+#jeu>*{
+	display: table-cell;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+#hangman{
+	height: 371px;
+	text-align: center;
+	vertical-align: bottom;
+}
+#words{
+	vertical-align: middle;
+}
+#words img{
+	float: left;
+	margin: .5em .5em 0 0;
+}
+.word-to-find{
+	background-position: left center;
+	background-repeat: no-repeat;
+	margin: 0 auto 1em;
+	padding: 0;
+	text-align: left;
+	width: 90%;
+}
+.word-to-find li{
+	border-bottom: solid .2em #104f72;
+	display: inline-block;
+	font-size: 1.4em;
+	margin: 0 .1em;
+	padding: .3em .5em;
+	text-transform: uppercase;
+}
+.word-to-find li.lettre-manquante{
+	color: #ff0000;
+}
+#play-form{
+	margin: 4em auto 0;
+	width: 90%;
+}
+#play-form ul{
+	border-top: solid 1px #104f72;
+	list-style-type: none;
+	margin: 0;
+	padding: 1em 0 0;
+	text-align: center;
+}
+#play-form li{
+	display: inline;
+}
+#play-form li input{
+	font-size: 1.2em;
+	line-height: 100%;
+	margin: .2em;
+	padding: 0;
+	text-transform: uppercase;
+	width: 2em;
+}
+#play-form li input:not([disabled]){
+	font-weight: bold;
+}
+#play-form p{
+	text-align: right;
+}

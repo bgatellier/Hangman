@@ -1,0 +1,7 @@
+Général :
+	* Vérifier la compatibilité entre navigateurs
+	* Revoir les textes pour qu'ils correspondent bien à ce qu'ils décrivent.
+
+Proposition : 
+	* Faire disparaître le message d'enregistrement de proposition au bout d'un certain temps, ou lors que l'utilisateur.
+	* Envoyer un mail de confirmation d'enregistrement de la proposition, ainsi qu'un lorsque le mot a été validé.

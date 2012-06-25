@@ -1,0 +1,12 @@
+2011-04-28
+	* Jouer: le jeu est désormais jouable
+
+2011-04-21
+	* Général: changement de design
+	* Général: ajout d'une favicon
+	* Jouer: début d'implémentation du jeu
+	* Proposition: suppression du champ email
+	* Administration: les résultats s'affichent dans une seule liste (au lieu de deux auparavant)
+	* Administration: les résultats sont filtrables
+	* Administration: les résultats sont triables
+	* Administration: les résultats sont paginés

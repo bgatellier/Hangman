@@ -1,0 +1,98 @@
+/*
+	CONNEXION
+*/
+#content{
+	text-align: center;
+}
+fieldset{
+	display: inline-block;
+}
+#form-admin-connexion p:last-child{
+	text-align: right;
+}
+#form-admin-connexion input:not([type=submit]){
+	display: block;
+	margin: 0 0 .5em;
+}
+#form-admin-connexion input[name=login]{
+	background-image: url(../pic/user.png);
+	background-position: 5px center;
+	background-repeat: no-repeat;
+}
+#form-admin-connexion input[name=pass]{
+	background-image: url(../pic/lock.png);
+	background-position: 5px center;
+	background-repeat: no-repeat;
+}
+/*
+	WORDS MANAGEMENT
+*/
+caption{
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-bottom: 1em;
+}
+table{
+	border-collapse: collapse;
+	width: 100%;
+}
+table button{
+	margin: 1px .2em;
+}
+thead,
+td.operations,
+td.status{
+	text-align: center;
+}
+thead input[name=fr-new]{
+	background-image: url(../pic/lang/fr.png);
+	background-position: 5px center;
+	background-repeat: no-repeat;
+}
+thead input[name=en-new]{
+	background-image: url(../pic/lang/gb.png);
+	background-position: 5px center;
+	background-repeat: no-repeat;
+}
+thead tr:last-child>*{
+	border-bottom: double 4px #104f72;
+}
+tfoot.pagination p{
+	float: left;
+	margin: 0;
+	padding: .5em;
+}
+tfoot.pagination ul{
+	display: table;
+	list-style-type: none;
+	margin: .5em auto;
+	padding: 0;
+}
+tfoot.pagination li{
+	display: table-cell;
+}
+td,
+th{
+	border: solid 1px #104f72;
+	padding: .2em .5em;
+}
+th{
+	font-size: 1.2em;
+	font-weight: bold;
+	white-space: nowrap;
+}
+th#en,
+th#fr{
+	text-align: center;
+}
+th a{
+	text-decoration: none;
+}
+th a#sort-asc{
+	background: url(../pic/admin/sort/control-270.png) no-repeat left center;
+	padding-left: 20px;
+}
+th a#sort-desc{
+	background: url(../pic/admin/sort/control-090.png) no-repeat left center;
+	padding-left: 20px;
+}

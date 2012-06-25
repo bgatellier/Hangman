@@ -1,0 +1,46 @@
+#students{
+	text-align: center;
+}
+.person{
+	-moz-border-radius: .5em;
+	-webkit-border-radius: .5em;
+	border: solid 2px #104f72;
+	border-radius: .5em;
+	display: inline-block;
+	margin: 1em;
+	overflow-y: hidden;
+	padding: 1em;
+}
+.person img{
+	float: left;
+	height: 100px;	
+	width: 100px;
+}
+.person dl{
+	margin: 0 0 0 100px;
+	padding: 0 0 0 1em;
+}
+.person dl>*{
+	line-height: 100%;
+	margin: 0 0 .8em;
+	padding: 0;
+	text-align: left;
+}
+.person dt{
+	font-weight: bold;
+}
+.person dl>*:last-child{
+	margin-bottom: 0;
+}
+.person dd{
+}
+.person-training{
+	margin: 0;
+}
+.person ul{
+	list-style-type: none;
+}
+.person .email a{
+	background: url(../pic/mail.png) no-repeat left center;
+	padding-left: 20px;
+}

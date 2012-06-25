@@ -1,0 +1,35 @@
+#content{
+	text-align: center;
+}
+fieldset{
+	display: inline-block;
+}
+#proposition-description{
+	display: table-cell;
+	text-align: justify;
+	text-indent: 2em;
+	vertical-align: top;
+	width: 20em;
+}
+#proposition-form{
+	display: table-cell;
+	padding-left: 2em;
+	vertical-align: top;
+}
+#proposition-form input:not([type=submit]){
+	display: block;
+	margin: 0 0 .5em;
+}
+#proposition-form input[name=proposition-fr]{
+	background-image: url(../pic/lang/fr.png);
+	background-position: 5px center;
+	background-repeat: no-repeat;
+}
+#proposition-form input[name=proposition-en]{
+	background-image: url(../pic/lang/gb.png);
+	background-position: 5px center;
+	background-repeat: no-repeat;
+}
+#proposition-form p:last-child{
+	text-align: right;
+}
